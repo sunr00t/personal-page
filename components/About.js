@@ -13,10 +13,10 @@ const About = () => {
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
               Sou graduando em Ciência da Computação.
-              Tenho conhecimento em sistemas distribuídos e aplicação de soluções para escalabilidade (Docker, Portainer, CapRover).
+              Tenho estudado soluções em sistemas distribuídos e aplicações escaláveis usando Docker e PaaS (CapRover).
             </p>
             <p className="mt-4">
-              Possuo habilidade com Linux, Git, Bash e Administração de Servidores (Windows/Linux). 
+              Possuo conhecimento em Linux, Git, Bash e Administração de Servidores (Windows/Linux). 
               Atualmente tenho participado de projetos backend em Ruby on Rails, NodeJS e utilizando bibliotecas como ReactJS e NextJS.
             </p>
             <p className="mt-4">
