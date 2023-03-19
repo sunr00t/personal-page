@@ -32,7 +32,6 @@ jobs:
           command: c
           cwd: "./"
           files: |
-             ./next
              ./captain-definition
              ./Dockerfile
           outPath: deploy.tar
