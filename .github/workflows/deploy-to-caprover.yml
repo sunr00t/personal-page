@@ -32,7 +32,9 @@ jobs:
           command: c
           cwd: "./"
           files: |
-            captain-definition
+             ./next
+             ./captain-definition
+             ./Dockerfile
           outPath: deploy.tar
 
       - uses: caprover/deploy-from-github@main
