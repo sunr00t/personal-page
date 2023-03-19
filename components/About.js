@@ -13,7 +13,7 @@ const About = () => {
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
               Sou graduando em Ciência da Computação.
-              Tenho estudado soluções em sistemas distribuídos e aplicações escaláveis usando Docker e PaaS (CapRover).
+              Tenho estudado soluções em sistemas distribuídos e aplicações escaláveis usando Docker e PaaS (CapRover)
             </p>
             <p className="mt-4">
               Possuo conhecimento em Linux, Git, Bash e Administração de Servidores (Windows/Linux). 
