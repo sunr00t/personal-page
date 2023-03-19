@@ -26,19 +26,10 @@ jobs:
       - run: npm run build --if-present
       - run: npm run test --if-present
 
-      # Future plans in the works to create tarball from within the caprover/deploy-from-github action.
-      - uses: a7ul/tar-action@v1.1.0
+      - uses: floms/action-caprover@v1
         with:
-          command: c
-          cwd: "./"
-          files: |
-             ./captain-definition
-             ./Dockerfile
-          outPath: deploy.tar
-
-      - uses: caprover/deploy-from-github@main
-        with:
-          server: '${{ env.CAPROVER_SERVER }}'
-          token: '${{ secrets.APP_TOKEN }}'
-          app: www
+          host: '${{ env.CAPROVER_SERVER }}'
+          password: '${{ secrets.CAPROVER_PASSWORD }}'
+          app: '${{ secrets.APP_NAME }}'
+          branch: 'main'
           
