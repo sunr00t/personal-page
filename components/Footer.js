@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://wwww.brunonascimento.dev.br"
+              href="https://www.brunonascimento.dev.br"
               className={'transition-colors hover:text-yellow-500'}
               target="_blank"
               rel="noreferrer"
