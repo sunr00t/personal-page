@@ -34,12 +34,12 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://www.brunonascimento.dev.br"
+              href="mailto:contato@brunonascimento.dev.br"
               className={'transition-colors hover:text-yellow-500'}
               target="_blank"
               rel="noreferrer"
             >
-              Personal Page
+              Contato
             </a>
           </div>
         </div>
