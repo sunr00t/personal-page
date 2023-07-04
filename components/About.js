@@ -12,15 +12,15 @@ const About = () => {
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
             <p className="mb-4">
-              Sou graduando em Ciência da Computação.
+              Bacharel em Ciência da Computação.
               Tenho estudado soluções em sistemas distribuídos e aplicações escaláveis usando Docker e PaaS (CapRover).
             </p>
             <p className="mt-4">
-              Possuo conhecimento em Linux, Git, Bash e Administração de Servidores (Windows/Linux). 
+              Possuo conhecimento em Linux, Git, Bash e Administração de Servidores (Windows/Linux).
               Atualmente tenho participado de projetos backend em Ruby on Rails, NodeJS e utilizando bibliotecas como ReactJS e NextJS.
             </p>
             <p className="mt-4">
-              Nas horas vagas gosto de ler sobre Mercado Financeiro e acompanho também a cultura DevOps e CyberSecurity.  
+              Nas horas vagas gosto de ler sobre Mercado Financeiro e acompanho também a cultura DevOps e CyberSecurity.
             </p>
           </div>
         </div>
