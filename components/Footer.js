@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="mailto:contato@brunonascimento.dev.br"
+              href="mailto:sunr00t@gmail.com"
               className={'transition-colors hover:text-yellow-500'}
               target="_blank"
               rel="noreferrer"
